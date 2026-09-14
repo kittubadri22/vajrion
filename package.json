@@ -1,0 +1,20 @@
+{
+  "name": "vajrion",
+  "version": "3.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "build": "npm --workspace frontend run build",
+    "start": "npm --workspace backend run start",
+    "seed": "npm --workspace backend run seed",
+    "reset": "npm --workspace backend run reset",
+    "test": "npm --workspace backend run test:encryption"
+  },
+  "engines": {
+    "node": ">=22 <24"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+.env
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
