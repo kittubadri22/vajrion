@@ -16,5 +16,6 @@
   },
   "engines": {
     "node": ">=22 <24"
-  }
+  },
+"type": "module"
 }
